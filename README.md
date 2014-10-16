@@ -1,12 +1,12 @@
 # [e-spres-oh] BEM
 
 This page contains a list of Frontend Best Practices and Coding Guidelines used at [e-spres-oh].
-It also explains our internal CSS naming convention, using a combination of BEM methodology, SMACCS and OOCSS.
+It also explains our internal CSS naming conventions, using a combination of BEM, SMACCS and OOCSS.
 
 ### General Guidelines
 
 > __DON'T apply CSS styles on HTML tags__<br>
-> We should decouple mark-up from styling, meaning that if you change the mark-up, you reduce the impact over the CSS.
+> We should decouple mark-up from styling, meaning that if you change the mark-up, it shouldn't have any impact over the CSS.
 
 > __DON'T apply CSS styles on IDs__<br>
 > They don't scale up. This can only be done if you are 110% sure that the element will remain unique until the _End-of-All-Frickin'-Times_.
@@ -16,7 +16,7 @@ It also explains our internal CSS naming convention, using a combination of BEM 
 
 # BEM Methodology
 
-BEM method prevents specifity nightmare on long term projects.
+BEM method prevents specificity nightmare on long term projects.
 
 ### Block
 
